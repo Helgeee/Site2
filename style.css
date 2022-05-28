@@ -17,14 +17,15 @@ header{
     padding: 22px 0;
 }
 .header-container{
-    width: 1400px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .header-container a{
-    color:#f6f6f6;
+    color:#000000;
     font-size:  16px;
+    font-weight: bolder;
     margin-right: 63px;
     padding: 27px 6px ;
 }
@@ -39,5 +40,48 @@ ul{
 }
 nav{
     margin-top: 20px;
-
+}
+/*Функция меню*/
+@media screen and (max-width:420px){
+    .header-container{
+        width: 100%;
+        display: flex;
+        justify-content:  space-around;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menu li{
+        width:100%;
+        display: block;
+        font-size: 12px;
+    }
+    .main-menu a{
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color:#000000;
+    }
+    .toggle-button:after{
+        content:attr(data-open);
+        display: block;   
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .main-menu{ 
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .toggle-button:before{ 
+        content: attr(data-close);
+    }
+    .header-container a{
+        margin-right: -65px;
+    }
+    .main-menu{
+        position: relative;
+        top: 30px;
+        right: 115px;
+    }
 }
