@@ -98,7 +98,7 @@ nav{
     text-align: center;
 }
 .portfolio h4{
-    background: #424147;
+    background: #595959;
     padding:  0 4px;
     font-size: 18px;
     display: inline-block;
@@ -106,13 +106,13 @@ nav{
     margin-bottom: 30px;
 }
 .portfolio p{
-    color: #424146;
+    color: #494949;
     font-size: 16px;
 
 }
 .toggles button{
     border: none;
-    color: #424146;
+    color: #363636;
     cursor: pointer;
     font-size: 16px;
     margin: 5px;
@@ -182,5 +182,33 @@ body{
         position: relative;
         top: 30px;
         right: 115px;
+    }
+    .top-slide {
+        padding-top: 40px;
+        padding-bottom: 400px;
+    }
+    .top-slide h2 {
+        font-size: 32px;
+    }
+    .top-slide p{
+        font-size: 16px;
+    }
+    .specialize-container p{
+        font-size: 16px;
+    }
+    .specialize-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+    }
+    .bottom-card{
+        width: 250px;
+        margin: 0 auto; 
+    }
+    .posts{
+        width: 90%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto;
     }
 }
