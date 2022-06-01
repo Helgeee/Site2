@@ -156,7 +156,59 @@ body{
     margin-bottom: 30px;
 }
 
+.footer{
+    width: 90px;
+    background:#414146;
+    padding: 30px 0;
+    color: rgb(104, 104, 104);
+    display: grid;
+    grid-template-columns: auto;
 
+}
+footer h4{
+    font-size: 18px;
+}
+footer h4{
+    bottom: #414146;
+    padding: 30px 0;
+    color:rgb(54, 54, 54);
+    display:  grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer-container .about-us a{
+    background: #000;
+    color: white;
+    font-size: 15px ;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid ffea00;
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    display:  grid;
+    grid-template-columns: 40% 30% 20%;
+    grid-column-gap: 3% ;
+
+}
+.about-us a{
+    background: #000;
+    color:#fff;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ffea00;
+    display: inline-block;
+}
+.images{
+    margin-top: 10px;
+}
+.tweets p{
+    margin-top: 20px ;
+}
 
 
 
