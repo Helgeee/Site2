@@ -13,3 +13,15 @@ $(function() {
     })
 
 })
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:10
+    });
+  });
+
+  if($(window).width()<420){
+    $(".owl-carousel").owlCarousel({
+        items:3
+    });
+  }
