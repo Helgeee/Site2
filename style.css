@@ -2,7 +2,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 *{
-   padding:0;
+   padding: 10;
    margin: 0; 
 }
 li{
@@ -30,7 +30,7 @@ header{
     padding: 27px 6px ;
 }
 .header-container a:hover{
-    background:#ffea00;
+    background:#ffffff;
 }
 #menu-checkbox{
     display: none;
@@ -42,7 +42,8 @@ nav{
     margin-top: 20px;
 }
 .top-slide{
-    background: url(img/slider_bg.jpg)no-repeat;
+    background: url(img/slider_bg.jpg)no-repeat ;
+    background-size: cover;
     padding-top: 120px;
     padding-bottom: 280px;
 }
@@ -51,7 +52,7 @@ nav{
     margin: 0 auto;
 }
 .top-slide h2{
-    background: #ffea00;
+    background: #ffffff;
     display: inline;
     font-size: 70px;
     padding: 0  13px;
@@ -81,10 +82,11 @@ nav{
 }
 .fiSrst-p{
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(40, 32, 32);
+    
 }
 .bottom-card{
-    background: #6a6a6d ;
+    background: #a0a0a0 ;
     position: relative;
     top: -30px;
 }
@@ -98,11 +100,11 @@ nav{
     text-align: center;
 }
 .portfolio h4{
-    background: #595959;
+    background: #868686;
     padding:  0 4px;
     font-size: 18px;
     display: inline-block;
-    color: #f5e10a;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 .portfolio p{
@@ -147,60 +149,59 @@ body{
     padding:  0 8px;
     font-size: 18px;
     display: inline-block;
-    color: #f5e10a;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 .brend-slider p{
-    color: #494949;
+    color: #464444;
     font-size: 16px;
     margin-bottom: 30px;
 }
 
-.footer{
-    width: 90px;
-    background:#414146;
+footer{
+    background:#2e2e2e;
     padding: 30px 0;
-    color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: auto;
 
+}
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 40% 30% 20%;
+    grid-column-gap: 3% ;
+    
 }
 footer h4{
     font-size: 18px;
 }
 footer h4{
-    bottom: #414146;
+    bottom: #ffffff;
     padding: 30px 0;
-    color:rgb(54, 54, 54);
+    color:rgb(255, 255, 255);
     display:  grid;
     grid-template-columns: auto auto auto;
 }
-
 .footer-container .about-us a{
-    background: #000;
-    color: white;
+    background: rgb(137, 136, 142);
+    color: rgb(255, 255, 255);
     font-size: 15px ;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 40px;
     border-bottom: 1px solid ffea00;
 }
-.footer-container{
-    width: 90%;
-    margin: 0 auto;
-    display:  grid;
-    grid-template-columns: 40% 30% 20%;
-    grid-column-gap: 3% ;
 
-}
 .about-us a{
     background: #000;
-    color:#fff;
+    color:rgb(228, 228, 228);
     font-size: 15px;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 40px;
-    border-bottom: 2px solid #ffea00;
+    border-bottom: 2px solid #007bfe;
     display: inline-block;
 }
 .images{
@@ -208,6 +209,22 @@ footer h4{
 }
 .tweets p{
     margin-top: 20px ;
+}
+.contacts{
+    margin-top: 10px;
+}
+.contacts p{
+    margin-top: 20px ;
+}
+.nav a:hover {
+    border-bottom: 5px solid rgb(246, 246, 246);
+    margin-top: 30px ;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.nav a:hover{
+    color: rgb(255, 255, 255);
+    
 }
 
 
